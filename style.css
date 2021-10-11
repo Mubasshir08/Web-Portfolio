@@ -13,6 +13,14 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+p{
+    color:dimgray;
+}
+
 .name-highlight{
     color: orange;
 }
@@ -38,6 +46,7 @@ h1{
 
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 
 /* .top-banner::after{
@@ -46,18 +55,27 @@ section{
     clear: both;
 } */
 
+.middle-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .link-btn{
     color:white;
     text-decoration: none;
     padding: 10px 20px;
     background-color: tomato;
+    font-weight: 700;
    
 }
 
-.link-btn:hover{
+.btn1:hover{
     background-image: linear-gradient(90deg, lightSalmon,Tomato);
-    
 }
 
+.btn2:hover{
+    background-image: linear-gradient(270deg, lightSalmon,Tomato);
 
+}
 
