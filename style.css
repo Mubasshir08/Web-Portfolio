@@ -113,9 +113,7 @@ transition: 0.3s;
 
 }
 
-.ex-area{
-  
-}
+
 
 .box{
     background-color: white;
@@ -141,7 +139,7 @@ transition: 0.3s;
     text-align:justify;
 }
 
-.box h2 , .box h3{
+.box h2{
     color: black;
 }
 
