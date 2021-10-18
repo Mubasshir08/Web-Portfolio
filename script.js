@@ -69,3 +69,42 @@ setInterval(function(){
    
 
 } ,37 );
+
+
+// scroll-ani======================
+
+
+var a  = setInterval(myfun,30);
+var b = setInterval(myfun1,30);
+var c = setInterval(myfun2,30);
+
+
+let count = 0;
+let count1 = 0;
+let count2 = 0;
+function myfun() {
+    count++;
+    document.getElementById("num7").innerHTML=count;
+    if(count == 70){
+        clearInterval(a)
+    }
+
+ }
+
+ function myfun1() {
+    count1++;
+    document.getElementById("num8").innerHTML=count1;
+    if(count1 == 20){
+        clearInterval(b)
+    }
+
+ }
+
+ function myfun2() {
+    count2++;
+    document.getElementById("num9").innerHTML=count2;
+    if(count2 == 50){
+        clearInterval(c)
+    }
+
+ }
