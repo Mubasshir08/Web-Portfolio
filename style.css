@@ -83,6 +83,8 @@ transition: 0.3s;
 
 }
 
+
+
 .navbar a:hover::before{
     width: 80%;
 }
@@ -162,42 +164,6 @@ transition: 0.3s;
     background-image: linear-gradient(270deg, lightSalmon,Tomato);
 
 }
-
-
-
-/* .box{
-    background-color: white;
-    height: 60%;
-    transition: 0.5s;
-    padding:20px;
-  
-}
-
-.box-gra{
-    border-image: linear-gradient(180deg, lightSalmon, tomato);
-    border-image-slice:1;
-    border-left: 7px solid;
-}
-
-.box-gra2{
-    border-image: linear-gradient(180deg, blue,cyan );
-    border-image-slice:1;
-    border-left: 7px solid;
-}
-
-.box p{
-    text-align:justify;
-}
-
-.box h2{
-    color: black;
-}
-
-.box:hover{
-    box-shadow: 10px 10px 15px gray;
-
-} */
-
 
 
 .container{
