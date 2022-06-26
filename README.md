@@ -1,3 +1,3 @@
 Web-Portfolio
 # My first website 
-* web
+* Not-Responsive For Mobile Devices
