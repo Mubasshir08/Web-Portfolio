@@ -276,7 +276,7 @@ stroke-dashoffset:450;
 }
 
 .ci6{
-animation:myani6 2s linear forwards;
+animation:myanii6 2s linear forwards;
 stroke-dashoffset:-450;
 
 }
@@ -317,12 +317,13 @@ stroke-dashoffset:-450;
     }
 }
 
-@keyframes myani6{
+@keyframes myanii6{
     100%{
         stroke-dashoffset:-225;
 
     }
 }
+
 
 
 
@@ -491,10 +492,9 @@ li{
 @keyframes myani6{
     100%{
         opacity: .3;
-    }
-    to  {
         transform: scale(1);
     }
+    
 } 
 
 .cirl2 i{
